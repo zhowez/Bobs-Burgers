@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49165388284456E60083C9E2 /* Bobs_BurgersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49165387284456E60083C9E2 /* Bobs_BurgersApp.swift */; };
+		4916538A284456E60083C9E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49165389284456E60083C9E2 /* ContentView.swift */; };
+		4916538C284456E80083C9E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4916538B284456E80083C9E2 /* Assets.xcassets */; };
+		4916538F284456E80083C9E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4916538E284456E80083C9E2 /* Preview Assets.xcassets */; };
+		4916539A284456E80083C9E2 /* Bobs_BurgersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49165399284456E80083C9E2 /* Bobs_BurgersTests.swift */; };
+		491653A4284456E80083C9E2 /* Bobs_BurgersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491653A3284456E80083C9E2 /* Bobs_BurgersUITests.swift */; };
+		491653A6284456E80083C9E2 /* Bobs_BurgersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491653A5284456E80083C9E2 /* Bobs_BurgersUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49165396284456E80083C9E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4916537C284456E60083C9E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49165383284456E60083C9E2;
+			remoteInfo = Bobs_Burgers;
+		};
+		491653A0284456E80083C9E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4916537C284456E60083C9E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49165383284456E60083C9E2;
+			remoteInfo = Bobs_Burgers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49165384284456E60083C9E2 /* Bobs_Burgers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bobs_Burgers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49165387284456E60083C9E2 /* Bobs_BurgersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bobs_BurgersApp.swift; sourceTree = "<group>"; };
+		49165389284456E60083C9E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4916538B284456E80083C9E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4916538E284456E80083C9E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49165390284456E80083C9E2 /* Bobs_Burgers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bobs_Burgers.entitlements; sourceTree = "<group>"; };
+		49165395284456E80083C9E2 /* Bobs_BurgersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bobs_BurgersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49165399284456E80083C9E2 /* Bobs_BurgersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bobs_BurgersTests.swift; sourceTree = "<group>"; };
+		4916539F284456E80083C9E2 /* Bobs_BurgersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bobs_BurgersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		491653A3284456E80083C9E2 /* Bobs_BurgersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bobs_BurgersUITests.swift; sourceTree = "<group>"; };
+		491653A5284456E80083C9E2 /* Bobs_BurgersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bobs_BurgersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49165381284456E60083C9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49165392284456E80083C9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4916539C284456E80083C9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4916537B284456E60083C9E2 = {
+			isa = PBXGroup;
+			children = (
+				49165386284456E60083C9E2 /* Bobs_Burgers */,
+				49165398284456E80083C9E2 /* Bobs_BurgersTests */,
+				491653A2284456E80083C9E2 /* Bobs_BurgersUITests */,
+				49165385284456E60083C9E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49165385284456E60083C9E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49165384284456E60083C9E2 /* Bobs_Burgers.app */,
+				49165395284456E80083C9E2 /* Bobs_BurgersTests.xctest */,
+				4916539F284456E80083C9E2 /* Bobs_BurgersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49165386284456E60083C9E2 /* Bobs_Burgers */ = {
+			isa = PBXGroup;
+			children = (
+				49165387284456E60083C9E2 /* Bobs_BurgersApp.swift */,
+				49165389284456E60083C9E2 /* ContentView.swift */,
+				4916538B284456E80083C9E2 /* Assets.xcassets */,
+				49165390284456E80083C9E2 /* Bobs_Burgers.entitlements */,
+				4916538D284456E80083C9E2 /* Preview Content */,
+			);
+			path = Bobs_Burgers;
+			sourceTree = "<group>";
+		};
+		4916538D284456E80083C9E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4916538E284456E80083C9E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49165398284456E80083C9E2 /* Bobs_BurgersTests */ = {
+			isa = PBXGroup;
+			children = (
+				49165399284456E80083C9E2 /* Bobs_BurgersTests.swift */,
+			);
+			path = Bobs_BurgersTests;
+			sourceTree = "<group>";
+		};
+		491653A2284456E80083C9E2 /* Bobs_BurgersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				491653A3284456E80083C9E2 /* Bobs_BurgersUITests.swift */,
+				491653A5284456E80083C9E2 /* Bobs_BurgersUITestsLaunchTests.swift */,
+			);
+			path = Bobs_BurgersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49165383284456E60083C9E2 /* Bobs_Burgers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491653A9284456E80083C9E2 /* Build configuration list for PBXNativeTarget "Bobs_Burgers" */;
+			buildPhases = (
+				49165380284456E60083C9E2 /* Sources */,
+				49165381284456E60083C9E2 /* Frameworks */,
+				49165382284456E60083C9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bobs_Burgers;
+			productName = Bobs_Burgers;
+			productReference = 49165384284456E60083C9E2 /* Bobs_Burgers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49165394284456E80083C9E2 /* Bobs_BurgersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491653AC284456E80083C9E2 /* Build configuration list for PBXNativeTarget "Bobs_BurgersTests" */;
+			buildPhases = (
+				49165391284456E80083C9E2 /* Sources */,
+				49165392284456E80083C9E2 /* Frameworks */,
+				49165393284456E80083C9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49165397284456E80083C9E2 /* PBXTargetDependency */,
+			);
+			name = Bobs_BurgersTests;
+			productName = Bobs_BurgersTests;
+			productReference = 49165395284456E80083C9E2 /* Bobs_BurgersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4916539E284456E80083C9E2 /* Bobs_BurgersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491653AF284456E80083C9E2 /* Build configuration list for PBXNativeTarget "Bobs_BurgersUITests" */;
+			buildPhases = (
+				4916539B284456E80083C9E2 /* Sources */,
+				4916539C284456E80083C9E2 /* Frameworks */,
+				4916539D284456E80083C9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				491653A1284456E80083C9E2 /* PBXTargetDependency */,
+			);
+			name = Bobs_BurgersUITests;
+			productName = Bobs_BurgersUITests;
+			productReference = 4916539F284456E80083C9E2 /* Bobs_BurgersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4916537C284456E60083C9E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					49165383284456E60083C9E2 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					49165394284456E80083C9E2 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 49165383284456E60083C9E2;
+					};
+					4916539E284456E80083C9E2 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 49165383284456E60083C9E2;
+					};
+				};
+			};
+			buildConfigurationList = 4916537F284456E60083C9E2 /* Build configuration list for PBXProject "Bobs_Burgers" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4916537B284456E60083C9E2;
+			productRefGroup = 49165385284456E60083C9E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49165383284456E60083C9E2 /* Bobs_Burgers */,
+				49165394284456E80083C9E2 /* Bobs_BurgersTests */,
+				4916539E284456E80083C9E2 /* Bobs_BurgersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49165382284456E60083C9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4916538F284456E80083C9E2 /* Preview Assets.xcassets in Resources */,
+				4916538C284456E80083C9E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49165393284456E80083C9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4916539D284456E80083C9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49165380284456E60083C9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4916538A284456E60083C9E2 /* ContentView.swift in Sources */,
+				49165388284456E60083C9E2 /* Bobs_BurgersApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49165391284456E80083C9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4916539A284456E80083C9E2 /* Bobs_BurgersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4916539B284456E80083C9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491653A4284456E80083C9E2 /* Bobs_BurgersUITests.swift in Sources */,
+				491653A6284456E80083C9E2 /* Bobs_BurgersUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49165397284456E80083C9E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49165383284456E60083C9E2 /* Bobs_Burgers */;
+			targetProxy = 49165396284456E80083C9E2 /* PBXContainerItemProxy */;
+		};
+		491653A1284456E80083C9E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49165383284456E60083C9E2 /* Bobs_Burgers */;
+			targetProxy = 491653A0284456E80083C9E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		491653A7284456E80083C9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		491653A8284456E80083C9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		491653AA284456E80083C9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Bobs_Burgers/Bobs_Burgers.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bobs_Burgers/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zhowez.Bobs-Burgers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		491653AB284456E80083C9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Bobs_Burgers/Bobs_Burgers.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bobs_Burgers/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zhowez.Bobs-Burgers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		491653AD284456E80083C9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zhowez.Bobs-BurgersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bobs_Burgers.app/Contents/MacOS/Bobs_Burgers";
+			};
+			name = Debug;
+		};
+		491653AE284456E80083C9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zhowez.Bobs-BurgersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bobs_Burgers.app/Contents/MacOS/Bobs_Burgers";
+			};
+			name = Release;
+		};
+		491653B0284456E80083C9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zhowez.Bobs-BurgersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Bobs_Burgers;
+			};
+			name = Debug;
+		};
+		491653B1284456E80083C9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zhowez.Bobs-BurgersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Bobs_Burgers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4916537F284456E60083C9E2 /* Build configuration list for PBXProject "Bobs_Burgers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491653A7284456E80083C9E2 /* Debug */,
+				491653A8284456E80083C9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491653A9284456E80083C9E2 /* Build configuration list for PBXNativeTarget "Bobs_Burgers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491653AA284456E80083C9E2 /* Debug */,
+				491653AB284456E80083C9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491653AC284456E80083C9E2 /* Build configuration list for PBXNativeTarget "Bobs_BurgersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491653AD284456E80083C9E2 /* Debug */,
+				491653AE284456E80083C9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491653AF284456E80083C9E2 /* Build configuration list for PBXNativeTarget "Bobs_BurgersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491653B0284456E80083C9E2 /* Debug */,
+				491653B1284456E80083C9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4916537C284456E60083C9E2 /* Project object */;
+}
