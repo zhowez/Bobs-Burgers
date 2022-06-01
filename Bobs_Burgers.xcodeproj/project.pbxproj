@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		49165384284456E60083C9E2 /* Bobs_Burgers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bobs_Burgers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49165384284456E60083C9E2 /* Bob's Burgers Random Character Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bob's Burgers Random Character Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49165387284456E60083C9E2 /* Bobs_BurgersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bobs_BurgersApp.swift; sourceTree = "<group>"; };
 		49165389284456E60083C9E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4916538B284456E80083C9E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		49165385284456E60083C9E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49165384284456E60083C9E2 /* Bobs_Burgers.app */,
+				49165384284456E60083C9E2 /* Bob's Burgers Random Character Generator.app */,
 				49165395284456E80083C9E2 /* Bobs_BurgersTests.xctest */,
 				4916539F284456E80083C9E2 /* Bobs_BurgersUITests.xctest */,
 			);
@@ -132,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		49165383284456E60083C9E2 /* Bobs_Burgers */ = {
+		49165383284456E60083C9E2 /* Bob's Burgers Random Character Generator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 491653A9284456E80083C9E2 /* Build configuration list for PBXNativeTarget "Bobs_Burgers" */;
+			buildConfigurationList = 491653A9284456E80083C9E2 /* Build configuration list for PBXNativeTarget "Bob's Burgers Random Character Generator" */;
 			buildPhases = (
 				49165380284456E60083C9E2 /* Sources */,
 				49165381284456E60083C9E2 /* Frameworks */,
@@ -144,9 +144,9 @@
 			);
 			dependencies = (
 			);
-			name = Bobs_Burgers;
+			name = "Bob's Burgers Random Character Generator";
 			productName = Bobs_Burgers;
-			productReference = 49165384284456E60083C9E2 /* Bobs_Burgers.app */;
+			productReference = 49165384284456E60083C9E2 /* Bob's Burgers Random Character Generator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		49165394284456E80083C9E2 /* Bobs_BurgersTests */ = {
@@ -221,7 +221,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49165383284456E60083C9E2 /* Bobs_Burgers */,
+				49165383284456E60083C9E2 /* Bob's Burgers Random Character Generator */,
 				49165394284456E80083C9E2 /* Bobs_BurgersTests */,
 				4916539E284456E80083C9E2 /* Bobs_BurgersUITests */,
 			);
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		49165397284456E80083C9E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 49165383284456E60083C9E2 /* Bobs_Burgers */;
+			target = 49165383284456E60083C9E2 /* Bob's Burgers Random Character Generator */;
 			targetProxy = 49165396284456E80083C9E2 /* PBXContainerItemProxy */;
 		};
 		491653A1284456E80083C9E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 49165383284456E60083C9E2 /* Bobs_Burgers */;
+			target = 49165383284456E60083C9E2 /* Bob's Burgers Random Character Generator */;
 			targetProxy = 491653A0284456E80083C9E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -540,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		491653A9284456E80083C9E2 /* Build configuration list for PBXNativeTarget "Bobs_Burgers" */ = {
+		491653A9284456E80083C9E2 /* Build configuration list for PBXNativeTarget "Bob's Burgers Random Character Generator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				491653AA284456E80083C9E2 /* Debug */,
