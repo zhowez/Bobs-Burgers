@@ -14,6 +14,7 @@
 		4916539A284456E80083C9E2 /* Bobs_BurgersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49165399284456E80083C9E2 /* Bobs_BurgersTests.swift */; };
 		491653A4284456E80083C9E2 /* Bobs_BurgersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491653A3284456E80083C9E2 /* Bobs_BurgersUITests.swift */; };
 		491653A6284456E80083C9E2 /* Bobs_BurgersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491653A5284456E80083C9E2 /* Bobs_BurgersUITestsLaunchTests.swift */; };
+		49A07F0B284844B000CCA5A3 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A07F0A284844B000CCA5A3 /* CharacterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		4916539F284456E80083C9E2 /* Bobs_BurgersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bobs_BurgersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		491653A3284456E80083C9E2 /* Bobs_BurgersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bobs_BurgersUITests.swift; sourceTree = "<group>"; };
 		491653A5284456E80083C9E2 /* Bobs_BurgersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bobs_BurgersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49A07F0A284844B000CCA5A3 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				4916538B284456E80083C9E2 /* Assets.xcassets */,
 				49165390284456E80083C9E2 /* Bobs_Burgers.entitlements */,
 				4916538D284456E80083C9E2 /* Preview Content */,
+				49A07F0A284844B000CCA5A3 /* CharacterView.swift */,
 			);
 			path = Bobs_Burgers;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A07F0B284844B000CCA5A3 /* CharacterView.swift in Sources */,
 				4916538A284456E60083C9E2 /* ContentView.swift in Sources */,
 				49165388284456E60083C9E2 /* Bobs_BurgersApp.swift in Sources */,
 			);
