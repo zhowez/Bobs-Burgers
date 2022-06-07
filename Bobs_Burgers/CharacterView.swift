@@ -38,22 +38,24 @@ struct Result: Codable {
     
 }
 
+
 struct CharacterView: View {
     @State private var result = Result()
     
     var body: some View {
         
         VStack(alignment: .center){
-            Spacer()
+            
             HStack(alignment: .center) {
+                
                 Spacer()
             
                 AsyncImage(url: URL(string: result.image),
                            content: { image in image.image?.resizable()
                         .aspectRatio(contentMode: .fit)
-                }).clipShape(RoundedRectangle(cornerRadius: 100)).frame(minWidth: 200,maxWidth: 200, minHeight: 250,maxHeight:  250, alignment: .leading)
+                }).background(Color.white).clipShape(RoundedRectangle(cornerRadius: 100)).overlay(RoundedRectangle(cornerRadius: 100).stroke(.white,lineWidth: 4)).shadow(radius: 7).frame(minWidth: 250,maxWidth: 250, minHeight: 300,maxHeight:  300, alignment: .leading)
                 Spacer().frame(minWidth: 20, idealWidth: 20,maxWidth: 20)
-                               
+                 
                 VStack(alignment: .leading){
                     Text("Name: " + result.name).bold().underline().font(.title)
                     Spacer().frame(width: 0, height: 5)
@@ -66,28 +68,42 @@ struct CharacterView: View {
                     Text("First Episode: " + result.firstEpisode)
                     Text("Voiced by: " + result.voicedBy)
                     
-                }
+                }.foregroundColor(Color.black)
                 Spacer()
             
             }
-            Spacer().frame(minHeight: 20, idealHeight: 20,maxHeight: 20)
+           
             
+        
+            /*
+             * Icon from: https://icons8.com/icon/97683/hamburgericon by Icons8
+             */
+            
+            
+            ZStack{
+            //Image("burg")
             Button(action: {
                 Task {
                     await loadData()
                 }
-            }, label: {
-                Text("Click Me")
+            }, label: {Image("burger").resizable()
+                    
             })
-            Spacer()
+            }.frame(width: 100, height: 100)
+          
+         
+           
+            
+       
         }
         .task {
             await loadData()
-        }.frame(maxWidth: .infinity, maxHeight: .infinity)
+        }.frame(maxWidth: .infinity, maxHeight: .infinity).background(Color.init(red: 170/252, green: 219/252, blue: 105/252))
         
     }
     
     func loadData() async {
+     
         let randoInt = Int.random(in: 1...502)
         guard let url = URL(string: "https://bobsburgers-api.herokuapp.com/characters/\(randoInt)") else {
             print("Invalid URL")
@@ -115,6 +131,9 @@ struct CharacterView: View {
 
 struct Character_View_Previews: PreviewProvider {
     static var previews: some View {
-        CharacterView()
+        Group {
+            CharacterView()
+            CharacterView()
+        }
     }
 }
