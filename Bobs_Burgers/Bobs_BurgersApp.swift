@@ -10,10 +10,11 @@ import SwiftUI
 @main
 struct Bobs_BurgersApp: App {
     
+    @StateObject var burgerApp = BurgerApp()
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(burgerApp)
             
         }
     }

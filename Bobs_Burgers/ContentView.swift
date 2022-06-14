@@ -8,24 +8,16 @@
 import SwiftUI
 
 
-
-var set = 0
 struct ContentView: View {
+    @EnvironmentObject var burgerApp: BurgerApp
     
+//    var character: Character {
+//        burgerApp.characters[burgerApp.characters.keys.randomElement()!]
+//    }
     
     var body: some View {
-        
-     
-        VStack{
-        
-            Rectangle().foregroundColor(.yellow).overlay(Text("Bob's Burgers Random Character Generator").font(Font.custom("Bob's Burgers", size: 50))).foregroundColor(.red).frame(width: .infinity, height: 50, alignment: .top)
-           
-            CharacterView()
-            
-        
-            
-            
-        }
+    
+        Text(character.name)
   
        
     }

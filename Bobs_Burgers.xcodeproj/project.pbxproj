@@ -16,7 +16,9 @@
 		491653A6284456E80083C9E2 /* Bobs_BurgersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491653A5284456E80083C9E2 /* Bobs_BurgersUITestsLaunchTests.swift */; };
 		492FE891284EDAB9001068C4 /* B.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 492FE88D284EDA69001068C4 /* B.ttf */; };
 		492FE892284EDAB9001068C4 /* B2.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 492FE88E284EDA69001068C4 /* B2.ttf */; };
-		49A07F0B284844B000CCA5A3 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A07F0A284844B000CCA5A3 /* CharacterView.swift */; };
+		49DD4935285828ED00CFFEBD /* BurgerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DD4934285828ED00CFFEBD /* BurgerApp.swift */; };
+		49DD4937285829B000CFFEBD /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DD4936285829B000CFFEBD /* Character.swift */; };
+		49DD493A28582ED300CFFEBD /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DD493928582ED300CFFEBD /* Networker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +68,9 @@
 		492FE88D284EDA69001068C4 /* B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = B.ttf; sourceTree = "<group>"; };
 		492FE88E284EDA69001068C4 /* B2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = B2.ttf; sourceTree = "<group>"; };
 		492FE88F284EDA69001068C4 /* Jayde's Font Info.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Jayde's Font Info.txt"; sourceTree = "<group>"; };
-		49A07F0A284844B000CCA5A3 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		49DD4934285828ED00CFFEBD /* BurgerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerApp.swift; sourceTree = "<group>"; };
+		49DD4936285829B000CFFEBD /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		49DD493928582ED300CFFEBD /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +128,7 @@
 				4916538B284456E80083C9E2 /* Assets.xcassets */,
 				49165390284456E80083C9E2 /* Bobs_Burgers.entitlements */,
 				4916538D284456E80083C9E2 /* Preview Content */,
-				49A07F0A284844B000CCA5A3 /* CharacterView.swift */,
+				49DD493828582EB600CFFEBD /* Model */,
 			);
 			path = Bobs_Burgers;
 			sourceTree = "<group>";
@@ -162,6 +166,16 @@
 				492FE88F284EDA69001068C4 /* Jayde's Font Info.txt */,
 			);
 			path = font;
+			sourceTree = "<group>";
+		};
+		49DD493828582EB600CFFEBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49DD4936285829B000CFFEBD /* Character.swift */,
+				49DD4934285828ED00CFFEBD /* BurgerApp.swift */,
+				49DD493928582ED300CFFEBD /* Networker.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,9 +309,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49A07F0B284844B000CCA5A3 /* CharacterView.swift in Sources */,
+				49DD493A28582ED300CFFEBD /* Networker.swift in Sources */,
+				49DD4935285828ED00CFFEBD /* BurgerApp.swift in Sources */,
 				4916538A284456E60083C9E2 /* ContentView.swift in Sources */,
 				49165388284456E60083C9E2 /* Bobs_BurgersApp.swift in Sources */,
+				49DD4937285829B000CFFEBD /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
