@@ -19,6 +19,9 @@
 		49DD4935285828ED00CFFEBD /* BurgerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DD4934285828ED00CFFEBD /* BurgerApp.swift */; };
 		49DD4937285829B000CFFEBD /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DD4936285829B000CFFEBD /* Character.swift */; };
 		49DD493A28582ED300CFFEBD /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DD493928582ED300CFFEBD /* Networker.swift */; };
+		49DD4949285D9AD100CFFEBD /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DD4948285D9AD100CFFEBD /* TitleView.swift */; };
+		49DD494B285D9AF800CFFEBD /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DD494A285D9AF800CFFEBD /* CharacterView.swift */; };
+		49DD494D285D9B0F00CFFEBD /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DD494C285D9B0F00CFFEBD /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		49DD4934285828ED00CFFEBD /* BurgerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerApp.swift; sourceTree = "<group>"; };
 		49DD4936285829B000CFFEBD /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		49DD493928582ED300CFFEBD /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
+		49DD4948285D9AD100CFFEBD /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		49DD494A285D9AF800CFFEBD /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		49DD494C285D9B0F00CFFEBD /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +130,7 @@
 			children = (
 				492FE88C284EDA69001068C4 /* font */,
 				49165387284456E60083C9E2 /* Bobs_BurgersApp.swift */,
-				49165389284456E60083C9E2 /* ContentView.swift */,
+				49DD4947285D9AC100CFFEBD /* Views */,
 				4916538B284456E80083C9E2 /* Assets.xcassets */,
 				49165390284456E80083C9E2 /* Bobs_Burgers.entitlements */,
 				4916538D284456E80083C9E2 /* Preview Content */,
@@ -176,6 +182,17 @@
 				49DD493928582ED300CFFEBD /* Networker.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		49DD4947285D9AC100CFFEBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49165389284456E60083C9E2 /* ContentView.swift */,
+				49DD4948285D9AD100CFFEBD /* TitleView.swift */,
+				49DD494A285D9AF800CFFEBD /* CharacterView.swift */,
+				49DD494C285D9B0F00CFFEBD /* ButtonView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,9 +328,12 @@
 			files = (
 				49DD493A28582ED300CFFEBD /* Networker.swift in Sources */,
 				49DD4935285828ED00CFFEBD /* BurgerApp.swift in Sources */,
+				49DD494D285D9B0F00CFFEBD /* ButtonView.swift in Sources */,
 				4916538A284456E60083C9E2 /* ContentView.swift in Sources */,
 				49165388284456E60083C9E2 /* Bobs_BurgersApp.swift in Sources */,
 				49DD4937285829B000CFFEBD /* Character.swift in Sources */,
+				49DD4949285D9AD100CFFEBD /* TitleView.swift in Sources */,
+				49DD494B285D9AF800CFFEBD /* CharacterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

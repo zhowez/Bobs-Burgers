@@ -10,15 +10,22 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var burgerApp: BurgerApp
+  
     
-//    var character: Character {
-//        burgerApp.characters[burgerApp.characters.keys.randomElement()!]
-//    }
+    var character: Character  {
+        burgerApp.getData()
+    }
+   
+    
+  
     
     var body: some View {
-    
-        Text(character.name)
-  
+        VStack{
+            TitleView()
+            Text(character.name).frame(width: 200, height: 200, alignment: .center)
+            ButtonView()
+           
+        }
        
     }
     

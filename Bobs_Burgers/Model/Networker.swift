@@ -30,6 +30,8 @@ enum Networker {
         guard let character = try? JSONDecoder().decode(Character.self, from: data) else {
             if let debugString = String(data: data, encoding: .utf8) {
                 print(debugString)
+                print("This is it")
+                
             }
             throw FetchError.badJSON
         }
