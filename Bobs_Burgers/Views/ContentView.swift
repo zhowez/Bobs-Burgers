@@ -10,10 +10,11 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var burgerApp: BurgerApp
+    @SceneStorage("charID") var charID = Int.random(in: 0...502)
   
     
     var character: Character  {
-        burgerApp.getData()
+        burgerApp.getData(id: charID)
     }
    
     
@@ -23,7 +24,7 @@ struct ContentView: View {
         VStack{
             TitleView()
             Text(character.name).frame(width: 200, height: 200, alignment: .center)
-            ButtonView()
+            ButtonView(id: $charID)
            
         }
        

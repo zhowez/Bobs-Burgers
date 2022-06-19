@@ -16,8 +16,8 @@ enum FetchError: Error {
 
 
 enum Networker {
-    static func getDataFroCharacter(Id: Int) async throws -> Character {
-        let address = "https://bobsburgers-api.herokuapp.com/characters/\(Id)"
+    static func getDataForCharacters() async throws -> [Character] {
+        let address = "https://bobsburgers-api.herokuapp.com/characters/"
         guard let url = URL(string: address) else {
             throw FetchError.badURL
         }
@@ -27,7 +27,7 @@ enum Networker {
             throw FetchError.badResponse
         }
         
-        guard let character = try? JSONDecoder().decode(Character.self, from: data) else {
+        guard let characters = try? JSONDecoder().decode([Character].self, from: data) else {
             if let debugString = String(data: data, encoding: .utf8) {
                 print(debugString)
                 print("This is it")
@@ -36,6 +36,6 @@ enum Networker {
             throw FetchError.badJSON
         }
         
-        return character
+        return characters
     }
 }

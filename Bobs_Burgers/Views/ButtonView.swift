@@ -9,22 +9,28 @@ import SwiftUI
 
 struct ButtonView: View {
     @EnvironmentObject var burgerApp: BurgerApp
+    @Binding var id: Int
+    
+    
     var body: some View {
-        Text("Test")
-        Button(action: {weClickedIt()}, label: {
-            Image("burg") .resizable().clipped()
-               
-        })
+        HStack {
+            Button(action: {
+                   //do action
+                weClickedIt()
+            }) {
+                Image("burger").frame(width: 50, height: 50, alignment: .center)
+                    //You need to change height & width as per your requirement
+            }.buttonStyle(PlainButtonStyle()).padding()
+
+         
+        }
        
 }
     
     func weClickedIt() {
-        Task {
-            await burgerApp.getRandomCharacter()
-        }
-        
-        
+        id = Int.random(in: 0...502)
     }
     
 
 }
+

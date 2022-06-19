@@ -8,42 +8,26 @@
 import Foundation
 
 class BurgerApp: ObservableObject{
-    @Published var characters: [Int: Character] = [:]
+    @Published var characters: [Character] = []
     
     @Published var loadingError = false
-    @Published var isLoading = false
+    @Published var isLoading = true
     
     init() {
         Task {
-            await getRandomCharacter()
-            await getRandomCharacter()
-            await getRandomCharacter()
-            await getRandomCharacter()
-            await getRandomCharacter()
-            await getRandomCharacter()
-            await getRandomCharacter()
-            await getRandomCharacter()
-            await getRandomCharacter()
-            await getRandomCharacter()
-            await getRandomCharacter()
-            await getRandomCharacter()
-            await getRandomCharacter()
-            await getRandomCharacter()
-            await getRandomCharacter()
-            await getRandomCharacter()
-            await getRandomCharacter()
-            await getRandomCharacter()
+            await getCharacters()
+          
         }
     }
+//
+//    @MainActor func getRandomCharacter() async {
+//        let rando = Int.random(in: 1...502)
+//        //print(rando)
+//        await getCharacter(rando: rando)
+//    }
     
-    @MainActor func getRandomCharacter() async {
-        let rando = Int.random(in: 1...502)
-        //print(rando)
-        await getCharacter(rando: rando)
-    }
-    
-    @MainActor func getCharacter(rando: Int) async {
-        
+    @MainActor func getCharacters() async {
+        print("get Chars")
         loadingError = false
         
         isLoading = true
@@ -52,13 +36,9 @@ class BurgerApp: ObservableObject{
         }
         
         
-        if characters[rando] != nil {
-            return
-        }
-        
         do {
-            let newCharacter = try await Networker.getDataFroCharacter(Id: rando)
-            characters[newCharacter.id] = newCharacter
+            let newCharacters = try await Networker.getDataForCharacters()
+            characters = newCharacters
         } catch {
             loadingError = true
             print("There was a loading error")
@@ -67,10 +47,14 @@ class BurgerApp: ObservableObject{
     }
     
     
-    func getData() -> Character {
+    func getData(id: Int) -> Character {
         print("Chewie punch it!")
         //use is loading to stop extra reloads
-        return characters.randomElement()?.value ?? Character.error()
+        if (!isLoading) {
+            return characters[id]
+        }
+        
+        return Character.error()
         
     }
 }
